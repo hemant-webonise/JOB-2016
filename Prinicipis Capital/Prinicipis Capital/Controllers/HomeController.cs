@@ -13,6 +13,13 @@ namespace Prinicipis_Capital.Controllers
             return View();
         }
 
+        public ActionResult Detail()
+        {
+            return View();
+        }
+
+
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
