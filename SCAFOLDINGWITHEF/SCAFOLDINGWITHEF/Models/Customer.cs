@@ -11,6 +11,7 @@ namespace SCAFOLDINGWITHEF.Models
     {
         [Key]
         public int CustomerID { get; set; }
+
         public string CustomerName { get; set; }
     }
 }
